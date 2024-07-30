@@ -1,0 +1,39 @@
+#our-classes {
+    position: relative;
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+#our-classes #gray-effect {
+    background-color: gray;
+    position: absolute;
+    height: 200px;
+    width: 60%;
+    right: 0;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        100% 100%,
+        20% 100%
+    );
+}
+
+
+#our-classes-div {
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+
+#our-class-head {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#our-class-head hr {
+    border: 2px solid var(--custom-color);
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 30px;
+}

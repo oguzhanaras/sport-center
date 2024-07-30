@@ -1,0 +1,121 @@
+#header {
+    background: url('../../images/hero-man.jpg') no-repeat center center;
+    opacity: 0.9;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#header #navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: #355592; */
+}
+
+#navigation .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation ul li {
+    padding: 6px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+#navigation ul li a {
+    color: var(--text-color-2);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#header-body {
+    flex-direction: column;
+}
+
+#header-body h1 {
+    text-align: center;
+    background-color: var(--title-color);
+    margin-top: 180px;
+    padding: 5px 7px;
+    width: 14%;
+    min-width: 200px;
+    border-radius: 5px;
+}
+
+#header-body h2 {
+    margin-top: 20px;
+    font-size: 100px;
+    font-weight: 900;
+    width: 60%;
+}
+
+#header-body p {
+    margin-top: 25px;
+    font-size: 40px;
+    background-color: #00000083;
+}
+
+/* hero içindeki butonları kapsayan div */
+#header-foot {
+    margin-top: 25px;
+}
+
+#header-foot button {
+    color: var(--text-color-2);
+    background: transparent;
+    padding: 15px;
+    margin: 0 20px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+/* hero içindeki ilk buton */
+#header-foot button:first-of-type {
+    background-color: var(--title-color);
+    border: none;
+}
+
+/* heronun aldıktani bilgi kutularını kapsayan div  */
+#hero-infos {
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#hero-infos .info {
+    text-align: center;
+    margin: 0 20px;
+    width: 20%;
+    height: 100px;
+    background-color: var(--backgorund-color-1);
+}
+
+#hero-infos .info h6 {
+    color: var(--title-color);
+    padding: 10px 0;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#hero-infos .info span {
+    color: var(--text-color-1);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        max-width: 100%;
+        margin-left: 20px;
+    }
+}

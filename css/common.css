@@ -1,0 +1,34 @@
+:root {
+    --title-color: #133981;
+    --text-color-1: #000000;
+    --text-color-2: #ffffff;
+    --backgorund-color-1: #ffffff;
+    --backgorund-color-2: rgba(117, 187, 219, 0.171);
+    --custom-color: #e09625e8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    color: var(--text-color-2);
+}
+
+.content-blue {
+    background-color: var(--backgorund-color-2);
+}
+
+.container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.active {
+    background-color: var(--custom-color);
+}
