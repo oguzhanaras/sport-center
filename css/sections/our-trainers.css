@@ -1,0 +1,79 @@
+#our-trainers {
+    margin-top: 50px;
+    padding: 30px 0;
+}
+
+#our-trainers #our-trainers-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#our-trainers-body h2 {
+    color: var(--title-color);
+    font-weight: 900;
+}
+
+#our-trainers-body p {
+    text-align: center;
+    width: 50%;
+    margin: 15px 0;
+}
+
+#our-trainers-images img {
+    width: 200px;
+    height: auto;
+    border: 1px solid var(--custom-color);
+    border-radius: 5px;
+}
+
+/* image border  */
+.bordered-image-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 30px;
+}
+
+.bordered-image {
+    display: block;
+}
+
+.border-left,
+.border-right
+{
+    position: absolute;
+    background: var(--title-color);
+    width: 10px;
+}
+
+.border-top,
+.border-bottom {
+    position: absolute;
+    background: var(--title-color);
+    height: 10px;
+}
+
+.border-left {
+    top: 25%;
+    left: -10px;
+    height: 50%;
+}
+
+.border-right {
+    top: 25%;
+    right: -10px;
+    height: 50%;
+}
+
+.border-top {
+    top: -10px;
+    left: 25%;
+    width: 50%;
+}
+
+.border-bottom {
+    bottom: -10px;
+    left: 25%;
+    width: 50%;
+}
