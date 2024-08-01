@@ -2,7 +2,7 @@
     --title-color: #133981;
     --text-color-1: #000000;
     --text-color-2: #ffffff;
-    --backgorund-color-1: #ffffff;
+    --backgorund-color-1: #f0e9e993;
     --backgorund-color-2: rgba(117, 187, 219, 0.171);
     --custom-color: #e09625e8;
 }
@@ -17,6 +17,7 @@
 
 body{
     color: var(--text-color-1);
+    background-color: var(--backgorund-color-1);
     font-family: Arial, Helvetica, sans-serif;
 }
 

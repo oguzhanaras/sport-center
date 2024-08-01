@@ -43,7 +43,7 @@
 #our-class-head h2 {
     color: var(--title-color);
     text-align: center;
-    font-weight: bolder;
+    font-weight: 900;
 }
 
 #our-class-head p {
@@ -63,6 +63,7 @@
 
 #btn-group button {
     background-color: var(--title-color);
+    position: relative;
     color: var(--text-color-2);
     padding: 15px 20px;
     min-width: 110px;
@@ -71,6 +72,20 @@
     border-radius: 5px;
     font-weight: 700;
     cursor: pointer;
+}
+
+#btn-group #btn-effect {
+    position: absolute;
+    background-color: var(--custom-color);
+    width: 30px;
+    height: 13px;
+    bottom: -28%;
+    left: 37%;
+    clip-path: polygon(
+        0% 0%,
+        100% 0%,
+        50% 100%
+    );
 }
 
 #our-class-content {

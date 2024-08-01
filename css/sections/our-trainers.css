@@ -58,22 +58,42 @@
     top: 25%;
     left: -10px;
     height: 50%;
+    transition: top 2s, height 2s;
 }
 
 .border-right {
     top: 25%;
     right: -10px;
     height: 50%;
+    transition: top 2s, height 2s;
 }
 
 .border-top {
     top: -10px;
     left: 25%;
     width: 50%;
+    transition: left 2s, width 2s;
 }
 
 .border-bottom {
     bottom: -10px;
     left: 25%;
     width: 50%;
+    transition: left 2s, width 2s;
+}
+
+.bordered-image-wrapper:hover {
+    .border-left,
+    .border-right {
+        top: 15%;
+        height: 70%;
+        transition: top 2s, height 2s;
+    }
+
+    .border-top,
+    .border-bottom {
+        left: 15%;
+        width: 70%;
+        transition: left 2s, width 2s;
+    }
 }
