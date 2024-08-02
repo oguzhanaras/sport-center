@@ -55,30 +55,30 @@
 }
 
 .border-left {
-    top: 25%;
+    top: 35%;
     left: -10px;
-    height: 50%;
+    height: 30%;
     transition: top 2s, height 2s;
 }
 
 .border-right {
-    top: 25%;
+    top: 35%;
     right: -10px;
-    height: 50%;
+    height: 30%;
     transition: top 2s, height 2s;
 }
 
 .border-top {
     top: -10px;
-    left: 25%;
-    width: 50%;
+    left: 35%;
+    width: 30%;
     transition: left 2s, width 2s;
 }
 
 .border-bottom {
     bottom: -10px;
-    left: 25%;
-    width: 50%;
+    left: 35%;
+    width: 30%;
     transition: left 2s, width 2s;
 }
 
@@ -95,5 +95,13 @@
         left: 15%;
         width: 70%;
         transition: left 2s, width 2s;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .bordered-image-wrapper {
+        display: block;
+        margin: 50px auto;
     }
 }

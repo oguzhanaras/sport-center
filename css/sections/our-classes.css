@@ -1,8 +1,3 @@
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
-
 #our-classes {
     position: relative;
     margin-bottom: 50px;
@@ -59,6 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #btn-group button {
@@ -90,13 +86,13 @@
 
 #our-class-content {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
-    width: 70%;
+    width: 90%;
 }
 
 #our-class-info {
     width: 50%;
-    max-width: 50%;
 }
 
 #our-class-info h3 {
@@ -115,9 +111,8 @@
 #our-class-img {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
     width: 50%;
-    max-width: 50%;
 }
 
 #our-class-img img {
@@ -129,16 +124,15 @@
 #our-class-bmi {
     display: flex;
     margin-top: 120px;
-    padding: 0 40px;
 }
 
 #calculator,
 #calculator-show {
-    max-width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 
 #calculator h2 {
@@ -207,4 +201,54 @@
     background-size: 40px 40px;
     color: var(--custom-color);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    #btn-group {
+        gap: 20px;
+    }
+
+    #our-class-content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #our-class-info {
+        width: 100%;
+        padding: 0 10px;
+    }
+    
+    #our-class-info h3 {
+        text-align: center;
+    }
+
+    #our-class-info p {
+        width: 100%;
+        text-align: center; 
+    }
+
+    #our-class-img {
+        width: 100%;
+    }
+
+    #our-class-img img {
+        width: 100%;
+    }
+
+    #our-class-bmi {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #calculator,
+    #calculator-show {
+        width: 100%;
+    }
+
+    #calculator-show {
+        margin-top: 20px;
+    }
 }
