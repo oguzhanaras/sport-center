@@ -14,35 +14,18 @@
         <header id="header">
             <div id="navigation">
                 <div class="container">
-                    <img src="images/logo.png" alt="logo">
+                    <div id="logo">
+                        <img src="images/logo.png" alt="logo">
+                        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                            <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
                     <nav id="nav" class="nav">
-                        <!-- <ul>
-                            <li class="link">
-                                <a href="#hero">Home</a>
-                            </li>
-                            <li class="link">
-                                <a href="#our-classes">Classes</a>
-                            </li>
-                            <li class="link">
-                                <a href="#our-trainers">Trainers</a>
-                            </li>
-                            <li class="link">
-                                <a href="#review">Review</a>
-                            </li>
-                            <li class="link active">
-                                <a >Join Us</a>
-                            </li>
-                        </ul> -->
-                        <div class="nav" id="navbar">
-                            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                            <a href="#hero">Home</a>
-                            <a href="#our-classes">Classes</a>
-                            <a href="#our-trainers">Trainers</a>
-                            <a href="#review">Review</a>
-                            <a>Join Us</a>
-                        </div>
+                        <a href="#hero">Home</a>
+                        <a href="#our-classes">Classes</a>
+                        <a href="#our-trainers">Trainers</a>
+                        <a href="#review">Review</a>
+                        <a href="#contact" class="active">Join Us</a>
                     </nav>
                 </div>
             </div>
@@ -91,36 +74,42 @@
                     provident sed officia hic enim omnis!</P>
             </header>
             <div id="btn-group">
-                <button class="active">
+                <button id="yoga" class="active">
                     <!-- butona verilen efekt için -->
                     Yoga<div id="btn-effect"></div>
                 </button>
-                <button>Group</button>
-                <button>Solo</button>
-                <button>Stretching</button>
+                <button id="group">Group</button>
+                <button id="solo">Solo</button>
+                <button id="stretch">Stretching</button>
             </div>
             <div id="our-class-content">
                 <div id="our-class-info">
                     <div>
-                        <h3>Why are your Yoga?</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni nobis ullam tempora aliquam ratione tempore non commodi praesentium voluptatem! Cumque voluptas repellendus dolores corporis dicta autem libero et similique cupiditate?</p>
+                        <h3 id="our-class-title-1">Why are your Yoga?</h3>
+                        <p id="our-class-p-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae magni nobis ullam
+                            tempora aliquam ratione tempore non commodi praesentium voluptatem! Cumque voluptas
+                            repellendus dolores corporis dicta autem libero et similique cupiditate?</p>
                     </div>
                     <div>
-                        <h3>When comes Yoga Your Time.</h3>
-                        <p>Saturday - Sunday: 8:00am - 10:00am</p>
-                        <p>Monday - Tuesday: 10:00am - 12:00am</p>
-                        <p>Wednesday - Friday: 3:00pm - 6:00pm</p>
+                        <h3 id="our-class-title-2">When comes Yoga Your Time.</h3>
+                        <p id="our-class-p-2">Saturday - Sunday: 8:00am - 10:00am</p>
+                        <p id="our-class-p-3">Monday - Tuesday: 10:00am - 12:00am</p>
+                        <p id="our-class-p-4">Wednesday - Friday: 3:00pm - 6:00pm</p>
                     </div>
                 </div>
                 <div id="our-class-img">
-                    <img src="images/yoga.jpg" alt="yoga">
+                    <img id="our-image" src="images/yoga.jpg" alt="yoga">
                 </div>
             </div>
             <div id="our-class-bmi">
                 <div id="calculator">
                     <h2>BMI Calculator</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut officia porro dolores ea recusandae obcaecati dolorum dignissimos explicabo at totam corporis aliquid fugit magnam aperiam, natus minima illum beatae!</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut officia porro dolores ea recusandae obcaecati dolorum dignissimos explicabo at totam corporis aliquid fugit magnam aperiam, natus minima illum beatae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut officia porro dolores ea
+                        recusandae obcaecati dolorum dignissimos explicabo at totam corporis aliquid fugit magnam
+                        aperiam, natus minima illum beatae!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut officia porro dolores ea
+                        recusandae obcaecati dolorum dignissimos explicabo at totam corporis aliquid fugit magnam
+                        aperiam, natus minima illum beatae!</p>
                     <div>
                         <input type="text" placeholder="Height (cm)">
                         <input type="text" placeholder="Weight (kg)">
@@ -136,12 +125,14 @@
             </div>
         </div>
     </section>
-    
+
     <section id="our-trainers" class="content-blue">
         <div id="our-trainers-body" class="container">
             <h2>OUR BEST TRAINERS</h2>
             <hr class="alt-cizgi">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam molestiae eaque quos doloremque vero earum accusantium sed placeat. Ab, ducimus! Illo ipsa quas ad voluptatibus inventore laborum pariatur qui accusamus.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam molestiae eaque quos doloremque vero
+                earum accusantium sed placeat. Ab, ducimus! Illo ipsa quas ad voluptatibus inventore laborum pariatur
+                qui accusamus.</p>
             <div id="our-trainers-images">
                 <div class="bordered-image-wrapper">
                     <img src="images/trainer1.jpg" alt="trainer-1" class="bordered-image">
@@ -172,7 +163,9 @@
         <div id="purchase-content" class="container">
             <h2>PURCHASE FROM US</h2>
             <hr class="alt-cizgi">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero cumque neque possimus molestias, mollitia rerum quam adipisci corrupti voluptates exercitationem, beatae ipsum natus sunt iusto veniam voluptas id consectetur provident.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero cumque neque possimus molestias, mollitia
+                rerum quam adipisci corrupti voluptates exercitationem, beatae ipsum natus sunt iusto veniam voluptas id
+                consectetur provident.</p>
             <div id="purchase-images">
                 <div id="purchase-item-wrapper">
                     <img src="images/purchase1.jpg" class="purchase-image" alt="purchase1">
@@ -218,7 +211,9 @@
         <div class="container">
             <h3>REVIEW CLIENT</h3>
             <hr class="alt-cizgi">
-            <P id="review-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem vero recusandae voluptate quis esse voluptatum officia nihil, commodi, provident perspiciatis eveniet inventore fugit ducimus explicabo, itaque illo iure! Eaque, dolorem.</P>
+            <P id="review-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem vero
+                recusandae voluptate quis esse voluptatum officia nihil, commodi, provident perspiciatis eveniet
+                inventore fugit ducimus explicabo, itaque illo iure! Eaque, dolorem.</P>
             <div id="clients">
                 <div class="client-wrapper">
                     <div class="client-wrapper-head">
@@ -229,7 +224,9 @@
                         </div>
                     </div>
                     <div class="client-wrapper-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis provident dolorum eum accusamus, atque quibusdam fuga sed et debitis nisi amet saepe voluptatem perspiciatis quos incidunt sapiente nobis optio dolore!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis provident dolorum eum
+                            accusamus, atque quibusdam fuga sed et debitis nisi amet saepe voluptatem perspiciatis quos
+                            incidunt sapiente nobis optio dolore!</p>
                     </div>
                     <div class="client-wrapper-effect">
                         <div class="effect-item-left"></div>
@@ -245,7 +242,9 @@
                         </div>
                     </div>
                     <div class="client-wrapper-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis provident dolorum eum accusamus, atque quibusdam fuga sed et debitis nisi amet saepe voluptatem perspiciatis quos incidunt sapiente nobis optio dolore!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis provident dolorum eum
+                            accusamus, atque quibusdam fuga sed et debitis nisi amet saepe voluptatem perspiciatis quos
+                            incidunt sapiente nobis optio dolore!</p>
                     </div>
                     <div class="client-wrapper-effect">
                         <div class="effect-item-left"></div>
@@ -260,7 +259,9 @@
         <div class="container">
             <h2>CONTACT US</h2>
             <hr class="alt-cizgi">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est illo sed voluptatem accusantium? Non repellendus quod porro accusantium facere. Quod ab delectus maxime, odit laborum facere quis quidem consequuntur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est illo sed voluptatem accusantium? Non
+                repellendus quod porro accusantium facere. Quod ab delectus maxime, odit laborum facere quis quidem
+                consequuntur.</p>
             <div id="contact-body">
                 <div id="contact-form">
                     <div id="contact-head">
@@ -281,7 +282,10 @@
                     </form>
                 </div>
                 <div id="contact-map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.30043169597!2d32.59795819912585!3d39.90352329772788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1722540516397!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.30043169597!2d32.59795819912585!3d39.90352329772788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1722540516397!5m2!1str!2str"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -291,7 +295,9 @@
         <div class="container">
             <div>
                 <img src="images/logo.png" alt="logo">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa quis autem enim dolor esse fugiat, totam, reprehenderit molestias laboriosam suscipit officiis at optio numquam sit expedita perferendis quibusdam perspiciatis voluptatum!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa quis autem enim dolor esse fugiat,
+                    totam, reprehenderit molestias laboriosam suscipit officiis at optio numquam sit expedita
+                    perferendis quibusdam perspiciatis voluptatum!</p>
             </div>
             <div id="footer-links">
                 <div>

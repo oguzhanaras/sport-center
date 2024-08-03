@@ -31,6 +31,11 @@ body{
     display: flex;
 }
 
+/* navbar background color for mobile menu and scroll  */
+.bg-blue {
+    background-color: var(--title-color);
+}
+
 .active {
     background-color: var(--custom-color) !important;
 }
