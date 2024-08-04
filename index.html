@@ -76,11 +76,17 @@
             <div id="btn-group">
                 <button id="yoga" class="active">
                     <!-- butona verilen efekt için -->
-                    Yoga<div id="btn-effect"></div>
+                    Yoga<div class="btn-effect"></div>
                 </button>
-                <button id="group">Group</button>
-                <button id="solo">Solo</button>
-                <button id="stretch">Stretching</button>
+                <button id="group">
+                    Group<div class=""></div>
+                </button>
+                <button id="solo">
+                    Solo<div class=""></div>
+                </button>
+                <button id="stretch">
+                    Stretching<div class=""></div>
+                </button>
             </div>
             <div id="our-class-content">
                 <div id="our-class-info">
@@ -110,16 +116,16 @@
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam aut officia porro dolores ea
                         recusandae obcaecati dolorum dignissimos explicabo at totam corporis aliquid fugit magnam
                         aperiam, natus minima illum beatae!</p>
-                    <div>
-                        <input type="text" placeholder="Height (cm)">
-                        <input type="text" placeholder="Weight (kg)">
+                    <div id="bmi-inputs">
+                        <input id="height" type="text" placeholder="Height (cm)">
+                        <input id="weight" type="text" placeholder="Weight (kg)">
                     </div>
                 </div>
                 <div id="calculator-show">
                     <h5>YOUR BMI</h5>
                     <img src="images/bmi-index.jpg" alt="bmi">
                     <div class="slidecontainer">
-                        <input type="range" min="10" max="90" value="10" class="slider" id="myRange">
+                        <input id="result" type="range" min="15" max="40" value="10" class="slider" id="myRange">
                     </div>
                 </div>
             </div>

@@ -70,7 +70,7 @@
     cursor: pointer;
 }
 
-#btn-group #btn-effect {
+#btn-group .btn-effect {
     position: absolute;
     background-color: var(--custom-color);
     width: 30px;
@@ -156,13 +156,13 @@
 
 #calculator-show img {
     width: 80%;
-    height: 80%;
+    height: 70%;
     margin: 0 auto;
     object-fit: cover;
 }
 
 .slidecontainer {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
