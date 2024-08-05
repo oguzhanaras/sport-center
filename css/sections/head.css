@@ -187,3 +187,10 @@
         width: 80%;
     }
 }
+
+@media only screen and (max-width: 433px) {
+    #header-body h2 {
+        margin-top: 46px;
+        font-size: 46px;
+    }
+}
