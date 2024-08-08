@@ -1,10 +1,10 @@
 :root {
-    --title-color: #133981;
+    --title-color: #355592;
     --text-color-1: #000000;
     --text-color-2: #ffffff;
     --backgorund-color-1: #f0e9e993;
     --backgorund-color-2: rgba(117, 187, 219, 0.171);
-    --custom-color: #e09625e8;
+    --custom-color: #F39C12;
 }
 
 * {
