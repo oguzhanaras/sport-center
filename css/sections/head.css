@@ -10,7 +10,7 @@
     position: fixed;
     width: 100%;
     z-index: 10;
-    transition: all 0.3s;
+    transition: all 0.2s;
 }
 
 #navigation .container {
@@ -149,20 +149,20 @@
     
     #header-body h1 {
         font-size: 32px;
-        margin-top: 35%;
+        margin-top: 32%;
         width: 240px;
     }
     
     #header-body h2 {
-        margin-top: 55px;
+        margin-top: 45px;
         font-size: 50px;
         font-weight: 900;
         width: 100%;
     }
     
     #header-body p {
-        margin-top: 25px;
-        font-size: 22px;
+        margin-top: 20px;
+        font-size: 18px;
         background-color: #00000083;
     }
 
