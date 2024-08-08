@@ -29,7 +29,7 @@
 #purchase-images #purchase-item-wrapper {
     background-color: rgb(255, 255, 255);
     text-align: center;
-    height: 300px;
+    height: 320px;
     width: 180px;
     border-radius: 10px;
 }
@@ -65,5 +65,5 @@
     gap: 5px;
     color: var(--title-color);
     font-weight: 800;
-    margin-top: 18px;
+    margin-top: 8px;
 }
