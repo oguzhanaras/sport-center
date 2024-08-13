@@ -155,14 +155,14 @@
 }
 
 #calculator-show img {
-    width: 80%;
+    width: 99%;
     height: 70%;
     margin: 0 auto;
     object-fit: cover;
 }
 
 .slidecontainer {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
