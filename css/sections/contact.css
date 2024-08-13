@@ -60,17 +60,21 @@
 
 #contact-form form input[type="text"],
 #contact-form form input[type="email"] {
+    background-color: var(--backgorund-color-2);
+    color: var(--text-color-1);
+    padding: 0 10px;
     height: 30px;
     margin-top: 10px;
+    border: none;
 }
 
 #contact-form form textarea {
+    background-color: var(--backgorund-color-2);
+    color: var(--text-color-1);
+    padding: 0 10px;
     height: 150px;
     margin-top: 10px;
-}
-
-#contact-body #contact-map {
-    max-height: 370px;
+    border: none;
 }
 
 #contact-map iframe {
