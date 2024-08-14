@@ -98,7 +98,6 @@
     background: var(--title-color);
     clip-path: polygon(10% 0, 90% 0, 90% 20%, 100% 20%, 100% 80%, 90% 80%, 90% 100%, 10% 100%, 10% 80%, 0 80%, 0 20%, 10% 20%);
     transition: all .2s;
-
 }
 
 .bordered-image-wrapper:hover {
@@ -116,6 +115,7 @@
 
     .trainer-info {
         visibility: visible;
+        transition: all .2s;
     }
 
 }
